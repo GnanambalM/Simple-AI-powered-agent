@@ -49,17 +49,15 @@ The repository contains two independent solutions:
 ```bash
 pip install -r requirements.txt
 
----
-
-#### API Key Configuration
+##### API Key Configuration
 Create a .env file locally:
 ```bash
 GROQ_API_KEY=your_groq_api_key
 
----
-
-#### Running the Agent
+###### Running the Agent
 ```bash
 python agent.py
 
 Update the target company URL inside agent.py as needed.
+
+---
