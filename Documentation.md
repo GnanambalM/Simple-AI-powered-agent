@@ -3,7 +3,7 @@ Simple AI-Powered Company Research Agent
 
 ---
 
-## 1. Project Overview
+## Project Overview
 
 This project implements an AI-powered agent that collects publicly available
 information about a given company from its official website and generates a
@@ -49,10 +49,14 @@ The repository contains two independent solutions:
 ```bash
 pip install -r requirements.txt
 
+---
+
 ##### API Key Configuration
 Create a .env file locally:
 ```bash
 GROQ_API_KEY=your_groq_api_key
+
+---
 
 ###### Running the Agent
 ```bash
